@@ -226,7 +226,7 @@ const App = () => {
           TodoExtra,
           {
             changeFilter, filter,
-            unfinishedTodoCount: todos.filter(todo => !todo.isCompleted).length,
+            unfinishedTodoCount: filterTodos.length,
             clearCompleted,
           },
       ),
